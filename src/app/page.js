@@ -31,7 +31,9 @@ export default function Home ()
             </p>
           </div>
 
-          <form action="" className="mx-auto mb-0 mt-8 max-w-md space-y-4">
+          <form action="https://api.web3forms.com/submit" method="POST" className="mx-auto mb-0 mt-8 max-w-md space-y-4">
+            <input type="hidden" name="access_key" value="4841cb13-67fb-4135-997b-7ddde85cd60f" />
+            <input type="checkbox" name="botcheck" class="hidden" style={ { display: "none;" } } />
             <div>
               <label htmlFor="name" className="sr-only">Name</label>
 
@@ -39,6 +41,7 @@ export default function Home ()
                 <input
                   type="text"
                   className="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                  name="from_name"
                   placeholder="Enter full name"
                 />
               </div>
@@ -50,6 +53,7 @@ export default function Home ()
                 <input
                   type="email"
                   className="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                  name="email"
                   placeholder="Enter email"
                 />
 
@@ -63,6 +67,7 @@ export default function Home ()
                 <input
                   type="text"
                   className="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
+                  name='subject'
                   placeholder="Enter subject/title"
                 />
 
@@ -74,6 +79,7 @@ export default function Home ()
 
               <div className="relative">
                 <textarea
+                  name="message"
                   className="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
                   placeholder="Enter message"
                 />
@@ -137,6 +143,7 @@ export default function Home ()
           />
         </div>
       </section>
+      <script src="https://web3forms.com/client/script.js" async defer></script>
     </>
   );
 }
