@@ -27,7 +27,7 @@ export default function Home ()
             <h1 className="text-2xl font-bold sm:text-3xl text-[#003087]">Contact Us</h1>
 
             <p className="mt-4 text-gray-500">
-              We're here to provide you with the answers and solutions you need. Contact us today and discover how we're shaping the future of healthcare
+              We&apos;re here to provide you with the answers and solutions you need. Contact us today and discover how we&apos;re shaping the future of healthcare
             </p>
           </div>
 
