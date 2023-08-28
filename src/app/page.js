@@ -26,13 +26,21 @@ export default function Home ()
           <div className="mx-auto max-w-lg text-center">
             <h1 className="text-2xl font-bold sm:text-3xl text-[#003087]">Contact Us</h1>
 
-            <p className="mt-4 text-gray-500">
-              We&apos;re here to provide you with the answers and solutions you need. Contact us today and discover how we&apos;re shaping the future of healthcare
+            <p className="mt-4 text-gray-500 text-start">
+              Hi! Thank you for visiting our page. We are happy to see you here.<br /><br />
+
+              Our website is in the process of being built and will be ready shortly. In the meantime, we&apos;d love to hear from you. To discover how we&apos;re shaping the future of healthcare, leave us a message and we will get back to you promptly.<br /><br />
+
+              <span className='font-semibold'>With Thanks<br />
+                Abiodun, Austin, Celeste & Isabelle<br />
+                <span className='text-[#00A499]'>(The MedTech Solutions Founding Team)</span>
+              </span>
             </p>
           </div>
 
           <form action="https://api.web3forms.com/submit" method="POST" className="mx-auto mb-0 mt-8 max-w-md space-y-4">
             <input type="hidden" name="access_key" value="4841cb13-67fb-4135-997b-7ddde85cd60f" />
+            <input type="hidden" name="from_name" value="MedTech Contact Form" />
             <input type="checkbox" name="botcheck" class="hidden" style={ { display: "none;" } } />
             <div>
               <label htmlFor="name" className="sr-only">Name</label>
@@ -41,7 +49,7 @@ export default function Home ()
                 <input
                   type="text"
                   className="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
-                  name="from_name"
+                  name="name"
                   placeholder="Enter full name"
                 />
               </div>
