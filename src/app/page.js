@@ -26,10 +26,10 @@ export default function Home ()
           <div className="mx-auto max-w-lg text-center">
             <h1 className="text-2xl font-bold sm:text-3xl text-[#003087]">Contact Us</h1>
 
-            <p className="mt-4 text-gray-500 text-start">
-              Hi! Thank you for visiting our page. We are happy to see you here.<br /><br />
+            <p className="mt-4 text-gray-500">
+              Thank you for visiting our page.<br /> We are happy to see you here.<br /><br />
 
-              Our website is in the process of being built and will be ready shortly. In the meantime, we&apos;d love to hear from you. To discover how we&apos;re shaping the future of healthcare, leave us a message and we will get back to you promptly.<br /><br />
+              Our website is in the process of being built<br /> and will be ready shortly. In the meantime,<br /> we&apos;d love to hear from you.<br /><br /> To discover how we&apos;re shaping the future of<br />healthcare, leave us a message and we will<br /> get back to you promptly.<br /><br />
 
               <span className='font-semibold'>With Thanks<br />
                 Abiodun, Austin, Celeste & Isabelle<br />
