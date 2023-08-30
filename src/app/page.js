@@ -39,7 +39,7 @@ export default function Home ()
           </div>
 
           <form action="https://api.web3forms.com/submit" method="POST" className="mx-auto mb-0 mt-8 max-w-md space-y-4">
-            <input type="hidden" name="access_key" value="4841cb13-67fb-4135-997b-7ddde85cd60f" />
+            <input type="hidden" name="access_key" value="2074eb4d-ae33-4a3c-8c02-1b183b1e5453" />
             <input type="hidden" name="from_name" value="MedTech Contact Form" />
             <input type="checkbox" name="botcheck" class="hidden" style={ { display: "none;" } } />
             <div>
