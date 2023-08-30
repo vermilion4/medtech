@@ -51,6 +51,7 @@ export default function Home ()
                   className="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
                   name="name"
                   placeholder="Enter full name"
+                  required
                 />
               </div>
             </div>
@@ -63,6 +64,7 @@ export default function Home ()
                   className="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
                   name="email"
                   placeholder="Enter email"
+                  required
                 />
 
               </div>
@@ -77,6 +79,7 @@ export default function Home ()
                   className="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
                   name='subject'
                   placeholder="Enter subject/title"
+                  required
                 />
 
 
@@ -90,6 +93,7 @@ export default function Home ()
                   name="message"
                   className="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
                   placeholder="Enter message"
+                  required
                 />
 
 
