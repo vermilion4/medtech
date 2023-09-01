@@ -117,7 +117,7 @@ export default function Home ()
 
               className="mb-2 inline-block rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg hover:scale-105"
               style={ { backgroundColor: "#c13584" } }>
-              <a href="https://instagram.com/medtechsolutionsglobal?igshid=OGQ5ZDc2ODk2ZA==">
+              <a href="https://instagram.com/medtechsolutionsglobal?igshid=OGQ5ZDc2ODk2ZA==" target='_blank'>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="h-4 w-4"
@@ -133,7 +133,7 @@ export default function Home ()
 
               className="mb-2 inline-block rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg hover:scale-105"
               style={ { backgroundColor: "#0077b5" } }>
-              <a href="https://www.linkedin.com/company/medtechsolutionsglobal/">
+              <a href="https://www.linkedin.com/company/medtechsolutionsglobal/" target='_blank'>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="h-4 w-4"
@@ -141,6 +141,23 @@ export default function Home ()
                   viewBox="0 0 24 24">
                   <path
                     d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
+                </svg>
+              </a>
+            </button>
+            <button
+              type="button"
+              data-te-ripple-init
+              data-te-ripple-color="light"
+              class="mb-2 inline-block rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+              style="background-color: #1877f2">
+              <a href="https://www.facebook.com/medtechsolutionsglobal" target='_blank'>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-4 w-4"
+                  fill="currentColor"
+                  viewBox="0 0 24 24">
+                  <path
+                    d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
                 </svg>
               </a>
             </button>
