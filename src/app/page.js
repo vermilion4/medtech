@@ -149,7 +149,7 @@ export default function Home ()
               data-te-ripple-init
               data-te-ripple-color="light"
               class="mb-2 inline-block rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
-              style="background-color: #1877f2">
+              style={ { backgroundColor: "#1877f2" } }>
               <a href="https://www.facebook.com/medtechsolutionsglobal" target='_blank'>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
